@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replicate Hub — Reproducible AI for Teams | MIT Sloan × K-1000</title>
+    <meta name="description" content="Replicate Hub enables researchers and teams to build, share, and deploy reproducible AI experiments with a production-grade workspace and one-click deployment." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://replicate-hub.com/" />
+    <meta property="og:title" content="Replicate Hub — Reproducible AI for Teams" />
+    <meta property="og:description" content="Replicate Hub enables researchers and teams to build, share, and deploy reproducible AI experiments with a production-grade workspace and one-click deployment." />
+    <meta property="og:image" content="/social-preview.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://replicate-hub.com/" />
+    <meta property="twitter:title" content="Replicate Hub — Reproducible AI for Teams" />
+    <meta property="twitter:description" content="Replicate Hub enables researchers and teams to build, share, and deploy reproducible AI experiments with a production-grade workspace and one-click deployment." />
+    <meta property="twitter:image" content="/social-preview.jpg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" as="style">
+    
+    <style>
+      /* Critical CSS for immediate paint */
+      body {
+        font-family: 'Inter', system-ui, sans-serif;
+        background-color: #0f172a;
+        color: white;
+        margin: 0;
+        overflow-x: hidden;
+      }
+      
+      .font-display {
+        font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+      }
+      
+      /* CSS Custom Properties for Design Tokens */
+      :root {
+        --primary-start: #7C3AED;
+        --primary-end: #06B6D4;
+        --accent-neon: #00FFD1;
+        --surface-glass: rgba(255, 255, 255, 0.06);
+        --background-dark: #0B1020;
+        --text-muted: #AAB3C7;
+        --text-white: #FFFFFF;
+        --success: #10B981;
+        --warning: #F59E0B;
+        --danger: #EF4444;
+      }
+
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Focus styles for accessibility */
+      *:focus-visible {
+        outline: 2px solid var(--primary-end);
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
